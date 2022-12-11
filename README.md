@@ -1,2 +1,1 @@
-# HearingApp
-group
+# HearingAppProto
