@@ -1,0 +1,36 @@
+.analysisResultList > .resultItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    user-select: none;
+}
+
+.analysisResultList > .resultItem:hover {
+    background: var(--bs-gray-200);
+}
+
+.analysisResultList > .resultItem .icon {
+    font-size: 3rem;
+    flex-basis: 3rem;
+    flex-grow: 0;
+    margin-right: 0.2em;
+}
+
+.analysisResultList > .resultItem input[type="checkbox"] {
+    flex-basis: 2.5em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.analysisResultList > .resultItem > .resultInfo {
+    flex-grow: 1;
+}
+
+.analysisResultList > .resultItem > .resultScore {
+    font-size: 2em;
+}
+
+.analysisResultList > .resultItem .resultType {
+    font-weight: bold;
+}
